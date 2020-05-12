@@ -13,7 +13,7 @@ main() {
   stringvecs[1] = vectors[2] >= 0 ? "+ ${vectors[2]}" : vectors[2];
   
   print("Equação Geral da Reta: ${vectors[0]}x ${stringvecs[0]} ${stringvecs[1]} = 0"); // General Line Equation
-  print("Equação Reduzida da Reta: ${vectors[1]} = ${vectors[0]} ${stringvecs[1]}"); // Reduced Line Equation
+  print("Equação Reduzida da Reta: y = ${vectors[0]} ${stringvecs[1]}"); // Reduced Line Equation
 }
 
 // Using two points for discover the line equation
