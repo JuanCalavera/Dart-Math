@@ -14,6 +14,17 @@ main() {
   
   print("Equação Geral da Reta: ${vectors[0]}x ${stringvecs[0]} ${stringvecs[1]} = 0"); // General Line Equation
   print("Equação Reduzida da Reta: y = ${vectors[0]} ${stringvecs[1]}"); // Reduced Line Equation
+  
+  var i = [A[0], A[1]];
+  var value;
+    
+  //Count the equation
+  while(i[0] <= B[0] && i[1] <= B[1]){
+    value = (vectors[0]*i[0]) + (vectors[1]*i[1]) + vectors[2];
+    print(value);
+    i[0]++;
+    i[1]++;
+  }
 }
 
 // Using two points for discover the line equation
